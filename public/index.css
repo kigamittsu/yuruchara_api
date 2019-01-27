@@ -1,0 +1,8 @@
+.fork-me {
+    float: right;
+}
+
+#submit {
+    width: 200px;
+    cursor: pointer;
+}

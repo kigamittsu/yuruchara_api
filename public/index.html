@@ -1,4 +1,28 @@
 <html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<a class="fork-me" href="https://github.com/kigamittsu/yuruchara_api"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149"
+        class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
 <h1>Yuruchara API</h1>
+<h2>Demo</h2>
+<h3>Get All Yuru-Chara (limit 100)</h3>
+<button id="submitAll">Submit!</button>
+<h3>Get Yuru-Chara By ID</h3>
+<form class="send-form">
+    ID: <input id="query-id" type="text">
+</form>
+<button id="submitID">Submit!</button>
+<h3>Get Yuru-Chara By Name</h3>
+<form class="send-form">
+    Name: <input id="query-name" type="text">
+</form>
+<button id="submitName">Submit!</button>
+<div id="result">
+</div>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="index.js"></script>
 
 </html>
