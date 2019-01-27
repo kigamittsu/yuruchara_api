@@ -8,17 +8,18 @@ This API has the following resolvers.
 ### Query
 Query | Input | Retern Type
 --- | --- | ---
-createYuruchara | name: String, prefecture: String, group: String, text: String, img_url: String | Yuruchara
-updateYuruchara | id: ID!, name: String, prefecture: String, group: String, text: String, img_url: String | Yuruchara
-removeYuruchara | id: ID! | String
-
-### Mutation
-Mutation | Input | Retern Type
---- | --- | ---
 yurucharas |  | [Yuruchara]
 id | id: ID | Yuruchara
 name | name: String | [Yuruchara]
 prefecture | name: String | [Yuruchara]
+
+### Mutation
+Mutation | Input | Retern Type
+--- | --- | ---
+createYuruchara | name: String, prefecture: String, group: String, text: String, img_url: String | Yuruchara
+updateYuruchara | id: ID!, name: String, prefecture: String, group: String, text: String, img_url: String | Yuruchara
+removeYuruchara | id: ID! | String
+
 ## Example
 Get all Yuru-Chara data.
 ```js
